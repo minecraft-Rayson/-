@@ -1,5 +1,4 @@
 ﻿import random,time
-error=0
 #中文抽奖主体系
 def chinesetixi():
     global chinese,language
@@ -90,11 +89,8 @@ def ljianc():
     else:
         print("啊？")
         time.sleep(5)
-        error=1
+        error+=1
 #语言判断主体系结束
 print("welcome to lottery2.0")
 time.sleep(5)
 ljianc()#调用语言检测
-#智慧人类主体系
-if error==1:
-    ljianc()
