@@ -89,7 +89,7 @@ def ljianc():
     else:
         print("啊？")
         time.sleep(5)
-        error+=1
+        ljianc()
 #语言判断主体系结束
 print("welcome to lottery2.0")
 time.sleep(5)
