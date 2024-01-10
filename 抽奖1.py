@@ -2,41 +2,35 @@
 #中文抽奖主体系
 def chinesetixi():
     global chinese,language
-    chinese=random.randint(1,6)
+    chinese=random.randint(1,5)
     if chinese==1:
         print("正在抽奖中……")
         time.sleep(3)
-        print("奶茶")
+        print("奖品1")
         time.sleep(5)
         ljianc()
     elif chinese==2:
         print("正在抽奖中……")
         time.sleep(3)
-        print("零食")
+        print("奖品2")
         time.sleep(5)
         ljianc()
     elif chinese==3:
         print("正在抽奖中……")
         time.sleep(3)
-        print("文具盒")
+        print("奖品3")
         time.sleep(5)
         ljianc()
     elif chinese==4:
         print("正在抽奖中……")
         time.sleep(3)
-        print("课间点播")
+        print("奖品4")
         time.sleep(5)
         ljianc()
     elif chinese==5:
         print("正在抽奖中……")
         time.sleep(3)
-        print("巧克力")
-        time.sleep(5)
-        ljianc()
-    elif chinese==6:
-        print("正在抽奖中……")
-        time.sleep(3)
-        print("笔")
+        print("奖品5")
         time.sleep(5)
         ljianc()
 #中文抽奖主体系结束
